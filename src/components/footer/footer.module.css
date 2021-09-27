@@ -1,0 +1,41 @@
+.footer{
+    height: 327px;
+    background: #242424;
+    margin-top: 140px;
+      
+}
+
+.footer_social >img{
+    padding: 0px 25px;
+    margin-top: 103px;
+   
+}
+
+.footer_all_rights{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+     
+}
+
+.footer_social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media (max-width: 377px) {
+.footer_social>img{
+    width: 49.41px;
+}
+
+.footer_all_rights{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+    
+}

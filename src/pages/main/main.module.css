@@ -1,0 +1,274 @@
+@media (min-width:378px){
+
+.container{
+  margin-left: 57px;
+}
+
+.main_content>h1{
+  font-size: 36px;
+  margin-top: 46px;
+}
+
+.main_content{
+  width: 1316px;
+  height: 570px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.other_news{
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.input_search {
+  width: 525px;
+  height: 59px;
+}
+
+.btn{
+  width: 274px;
+  height: 59px;
+  background: #801BBE;
+  margin-left: 21px;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+  border: none;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 220px;
+}
+
+.slider1 {
+  box-shadow: 0 0px 8px 0 rgba(0,0,0,0.5);
+  max-width: 380px;
+  transition: 0.3s;
+}
+
+.slider1>h1,.slider1>p{
+  width: 343px;
+  height: 141px;
+}
+
+.more{
+  color: black;
+  margin-left: 250px;
+  font-weight:bold
+}
+
+.more3{
+  margin-top: 180px;
+  margin-left: 250px;
+  font-weight:bold
+}
+
+.second_slider, .latest_news{
+  display: none !important;
+}
+
+.navbar{
+  display: none !important;
+}
+}
+
+@media all and (max-width: 377px) {
+
+.main_content , .other_news , .first_slider , .photo_span{
+  display: none !important;
+}
+
+.slider2{
+  box-shadow: 0 0px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  margin-right: 10px;
+  width: 175px;
+}
+
+.slider2>p{
+  font-weight: 300;
+  font-size: 8px;
+  padding-left: 5px;
+}
+
+.slider2>h1{
+  font-weight: 600;
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.slider2>span{
+  font-weight: 300;
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.slider2>img{
+  width: 175px;
+  height: 116px;
+}
+
+.more2{
+  font-weight: 600;
+  font-size: 8px;
+  font-weight:bold;
+  padding-left: 5px;
+}
+
+.more3{
+  
+  font-weight: 600;
+  font-size: 8px;
+  margin-top: 18px;
+  font-weight:bold;
+  padding-left: 5px;
+}
+
+.input_search {
+  width: 180px;
+  height: 32px;
+}
+
+.latest_news{
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 42px;
+  margin-left: 18px;
+}
+
+.trending>button{
+  width: 130px;
+  height: 32px;
+  background: #801BBE;
+  margin-left: 18px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border: none;
+  margin-left: 18px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 39px;
+}
+
+.categories_next{
+  background: url(./../../images/pirple.png)
+}
+
+.categories>h1{
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 78px;
+}
+
+ .categories>ul, .categories_next>ul{
+  list-style-type: none;
+ 
+}
+
+ .categories_next{
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+}
+
+ .br{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ .more_info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 18px;
+  margin-bottom: 15.8px;
+}
+
+ .more_info>img{
+  margin-right: 64px; 
+ }
+
+ .top_news{
+  background-image: url(./../../images/sony.png);
+  background-size: 375px;
+  width: 375px;
+  height: 212px;
+}
+
+ .top_news>img{
+  margin-top: 105px;
+  margin-left: 10px;
+}
+
+.trending>h1{
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 18px;
+}
+
+.tech_news{
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 18px;
+}
+
+.trending >button{
+  width: 130px;
+  height: 32px;
+  background: #801BBE;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border: none;
+}
+
+.inputs>button{
+  width: 130px;
+  height: 32px;
+  background: #801BBE;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border: none;
+  margin-left: 29px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+
+.sitemap>h1 , .about>h1{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sitemap>ul, .about>p{
+  font-weight: 300;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.about{
+  width: 204px;
+}
+.sitemap>h1{
+  margin-left: 40px;
+  }
+}
